@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+#elettil-body{
+  background-image: url("../bg-img.jpg");
+}
+
+#elettil-body .margin-class {
+  margin-top: 50px;
+}
+#elettil-body #elettil-nav {
+  margin-top: 22px;
+  padding-left: 0px;
+}
+#elettil-body #elettil-nav li {
+  list-style: none;
+  float: left;
+  cursor: pointer;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: #4d5e6c !important;
+}
+#elettil-body #elettil-nav li a {
+  text-decoration: none;
+  color: #4d5e6c !important;
+}
+#elettil-body #elettil-nav li.active {
+  border-width: 0px 2px 0px 2px;
+  border-color: #ee3624;
+  border-style: solid;
+}
+#elettil-body #elettil-nav li.active a {
+  color: #ee3624 !important;
+}
+#elettil-body .banner-red {
+  margin-top: -50px;
+}
+#elettil-body .wrapper-two {
+  margin-top: 50px;
+}
+#elettil-body .wrapper-two #elettil-services li {
+  list-style: none;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #4d5e6c;
+  font-size: 18px;
+}
+#elettil-body .careers {
+  margin-top: 100px;
+  background-color: #02080eb3;
+  color: white;
+}
+#elettil-body .careers table {
+  max-width: 980px;
+  table-layout: fixed;
+  margin: auto;
+}
+#elettil-body .careers table th,
+#elettil-body .careers table td {
+  padding: 5px 10px;
+}
+#elettil-body .careers table thead {
+  display: table;
+  width: 100%;
+  width: calc(100%);
+}
+#elettil-body .careers table tbody {
+  overflow: auto;
+  overflow-x: hidden;
+  display: block;
+  width: 100%;
+}
+#elettil-body .careers table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+#elettil-body .careers table tbody td {
+  /*border: none;*/
+  height: 50px;
+  font-weight: 500;
+}
+.resume-text-wrapper {
+  margin-top: 30px;
+  color: #5c5c5c;
+  font-size: 17px;
+}
+.resume-text-wrapper span {
+  color: #ee3624;
+  font-weight: 600;
+}
+#elettil-footer {
+  background-color: white;
+  margin-bottom: 30px;
+}
+#elettil-footer .footer {
+  margin-top: 20px;
+}
+#elettil-footer .footer li {
+  list-style: none;
+}
+#elettil-footer .footer li i {
+  color: #ee3624;
+  font-size: 19px;
+  float: left;
+  margin-right: 10px;
+}
+#elettil-footer .footer li p.phone {
+  font-weight: 600;
+}
+#elettil-footer .footer li p {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: #4d5e6c;
+  font-weight: 500;
+}
+#elettil-footer h5 {
+  margin: 10px 0px 0px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #ee3624;
+}
+#elettil-footer .footer-col {
+  border-right: 1px solid #bfbfbf;
+}
+#elettil-footer .footer-col img {
+  margin-top: 10px;
+}
+.m-0 {
+  margin: 0;
+}
